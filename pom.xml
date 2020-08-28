@@ -12,6 +12,7 @@
 	
 	<properties>
 		<jdk.version>14</jdk.version>
+		<javaee.version>8.0.1</javaee.version>
 		<wildfly-maven-plugin.version>2.0.0.Final</wildfly-maven-plugin.version>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
 		<maven-war-plugin.version>3.2.2</maven-war-plugin.version>
@@ -21,7 +22,7 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
-            <version>7.0</version>
+            <version>${javaee.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
